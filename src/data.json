@@ -1,0 +1,10 @@
+{ "cards": [
+    {"eng": "eng1",
+    "ara": "ara1"},
+    {"eng": "eng2",
+    "ara": "ara2"},
+    {"eng": "eng3",
+    "ara": "ara3"}
+
+]
+}
