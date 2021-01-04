@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Card.css';
 
-//function Card 
+//function Card [image, audio, english, spanish]
 
 const Card = (props) => (
   <div className="card-container">
@@ -9,6 +9,7 @@ const Card = (props) => (
       <div className="front">
         <div className="english">
           {props.eng}
+              {props.blah}
         </div>
       </div>
       <div className="back">

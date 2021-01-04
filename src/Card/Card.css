@@ -12,13 +12,7 @@
   height: 400px;
   width: 400px;
   position: absolute;
-  border: 1px solid #300;
-  transform-style: preserve-3d;
-  transition: all 0.4s ease-in-out;
-}
-
-.card:active {
-  transform: rotateY(180deg);
+  border: 2px solid #300;
   transition: all 0.4s ease-in-out;
 }
 
@@ -29,16 +23,13 @@
   overflow: hidden;
   text-align: center;
   background-color: rgba(255, 251, 251, 1);
-  backface-visibility: hidden;
 }
 
 .card .back {
   height: 400px;
   width: 400px;
   text-align: center;
-  transform: rotateY(180deg);
   background-color: rgba(255, 251, 251, 1);
-  backface-visibility: hidden;
 
 }
 
