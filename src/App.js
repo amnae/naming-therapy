@@ -85,14 +85,14 @@ class App extends Component {
         
           <div className="row">  
 
-            <div className="buttonContainer">
-              <button className="btn hintBtn" onClick={this.drawCard}>First Letter</button>
+            <div className="hintBtn">
+              <button className="btn" onClick={this.drawCard}>First Letter</button>
             </div>
-            <div className="buttonContainer">
-              <button className="btn hintBtn" onClick={this.drawCard}>Written Word</button>
+            <div className="hintBtn">
+              <button className="btn" onClick={this.drawCard}>Written Word</button>
             </div>
-            <div className="buttonContainer">
-              <button className="btn hintBtn" onClick={this.drawCard}>Word Audio</button>
+            <div className="hintBtn">
+              <button className="btn" onClick={this.drawCard}>Word Audio</button>
             </div>
           </div>
           

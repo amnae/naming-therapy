@@ -14,39 +14,32 @@
   position: absolute;
   border: 2px solid #300;
   transition: all 0.4s ease-in-out;
+  text-align: center;
 }
 
-.card .front {
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  overflow: hidden;
-  text-align: center;
-  background-color: rgba(255, 251, 251, 1);
+.hidden {
+   display:none;
 }
-
-.card .back {
-  height: 400px;
-  width: 400px;
-  text-align: center;
-  background-color: rgba(255, 251, 251, 1);
-
+.show{
+   display:block;
 }
 
 .english{
   color: #333;
-  font-size: 2.3em;
-  padding-top: 40%;
+  font-size: 5em;
+  padding-top: 20%; 
 }
 
 .arabic{
   color: #333;
-  font-size: 6.3em;
-  padding-top: 20%;
+  font-size: 2.3em;
+  padding-top: 10%;
 }
 
-.pin{
-    color: rgba(200, 10, 10, 1);
-    font-size: 2.3em;
-    padding-top: 10%;
+.fgdfg{
+  display:none;
+}
+
+.half{
+  height:40%;
 }
